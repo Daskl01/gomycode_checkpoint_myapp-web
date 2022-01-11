@@ -131,8 +131,8 @@ const Articles = ( { className }) => {
                                             </div>
                                             
                                             <div className="d-flex justify-content-between gap-2 mt-3">
-                                                <a href='Gomycode\gomycode-checkpoint-js\panier.html'><button className="btn btn-warning">Buy</button></a>
-                                                <button className="btn btn-outline-danger">+</button>
+                                                <button className="btn btn-primary">Achéter</button>
+                                                <button className="btn btn-outline-primary fw-bold">+</button>
                                             </div>
                                         </div>
                                     )
@@ -141,7 +141,7 @@ const Articles = ( { className }) => {
                             
                         </div>
                         <div className="voir-plus text-center mt-4">
-                            <button className="btn btn-outline-warning">Voir plus</button>
+                            <button className="btn btn-outline-primary">Voir plus</button>
                         </div>
                     </div>
                 </div>
